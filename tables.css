@@ -1,0 +1,113 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.flexblock{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+table{
+    
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    
+}
+
+tr{
+    
+    background: rgb(187,221,255);
+    
+}
+
+td{
+    
+    width: 170px;
+    height: 40px;
+    
+}
+
+th{
+    
+    height: 30px;
+    font-size: 16px;
+    color: rgb(19,137,255);
+    
+}
+
+button{
+    
+    border-radius: 100%;
+    width:35px;
+    height: 35px;
+    border: 2px solid rgb(142,11,17);
+    background:rgb(238,45,54);
+    transition: .30s ease-in-out;
+    
+}
+
+button:hover{
+    
+    box-shadow: 0 0 10px rgb(238,45,54);
+    transition: .30s ease-in-out;
+    cursor: pointer;
+    
+}
+
+button svg{
+    
+    width: 25px;
+    height: 25px;
+    fill:rgb(142,11,17);
+    
+}
+
+.title{
+    
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+form input{
+    
+    display: none;
+    
+}
+
+.other{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: .30s ease-in-out;
+    margin-top: 30px;
+    
+}
+
+.other:hover{
+    
+    color: rgb(19,137,255);
+    text-shadow: 0 0 10px rgb(19,137,255);
+    transition: .30s ease-in-out; 
+    
+}
